@@ -1,6 +1,6 @@
 <?php
 
-    class stringGetter implements Getter
+    class stringGetter
     {
 
         /**
