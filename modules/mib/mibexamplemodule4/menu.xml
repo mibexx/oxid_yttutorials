@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="mxmanageprod">
+            <SUBMENU id="mxmibexample4" cl="mibexample4" list="mibexample4_list">
+                <TAB id="tbclmibexample4_main" cl="mibexample4_main" />
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>

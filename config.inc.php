@@ -59,7 +59,7 @@
     //  8 = display smarty template names (requires /tmp cleanup)
     $this->iDebug = 1;
 
-    //$this->blSkipViewUsage = true;
+//    $this->blSkipViewUsage = true;
 
     // Log all modifications performed in Admin
     $this->blLogChangesInAdmin = false;
