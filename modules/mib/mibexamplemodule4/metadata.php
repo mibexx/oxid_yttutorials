@@ -35,7 +35,8 @@
         'version'     => '1.0',
         'author'      => 'Mibexx',
         'extend'      => array(
-            'article_main' => 'mib/mibexamplemodule4/extensions/controllers/admin/mibexamplemodule4_article_main'
+            'article_main' => 'mib/mibexamplemodule4/extensions/controllers/admin/mibexamplemodule4_article_main',
+            'oxviewconfig' => 'mib/mibexamplemodule4/extensions/core/MibViewConfig'
         ),
         'files'       => array(
             'mibtest'          => 'mib/mibexamplemodule4/application/models/mibtest.php',

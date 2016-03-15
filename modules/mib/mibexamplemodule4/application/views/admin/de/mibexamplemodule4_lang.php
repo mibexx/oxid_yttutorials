@@ -10,6 +10,7 @@
         'mxmibexample4'        => 'Test',
         'tbclmibexample4_main' => 'Stamm',
         'MIB_LIST_TITLE'       => 'Titel',
+        'MIB_MAIN_IDENT'       => 'Ident',
         'MIB_MAIN_TITLE'       => 'Titel',
 
     );

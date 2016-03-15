@@ -53,6 +53,14 @@
                     [{block name="admin_mibexample4_main_form"}]
                     <tr>
                         <td class="edittext">
+                            [{ oxmultilang ident="MIB_MAIN_IDENT" }]
+                        </td>
+                        <td class="edittext">
+                            <input type="text" class="editinput" size="28" name="editval[mib_test__mibident]" value="[{$edit->mib_test__mibident->value}]">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="edittext">
                             [{ oxmultilang ident="MIB_MAIN_TITLE" }]
                         </td>
                         <td class="edittext">

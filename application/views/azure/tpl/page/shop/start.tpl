@@ -14,6 +14,10 @@
         [{/if}]
         [{/foreach}]
     [{/if}]
+    [{assign var='testObject' value=$oViewConf->getDataFromIdent('test-ident')}]
+    [{if $testObject}]
+        Data: [{$testObject->mib_test__mibtitle->value}]
+    [{/if}]
     [{if $oView->getBargainArticleList()|@count > 0 || ($promoCatTitle && $promoCatImg)}]
         <div class="promoBoxes clear">
             [{if count($oView->getBargainArticleList()) > 0 }]
